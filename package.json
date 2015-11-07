@@ -1,0 +1,37 @@
+{
+  "name": "stream-jspm",
+  "version": "0.0.1",
+  "description": "Wraps JSPM inside a node stream so it is useful within a streaming build script.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no automated test specified.  Manual smoke test in test/basic-test.js.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiramsoft/stream-jspm.git"
+  },
+  "keywords": [
+    "jspm",
+    "gulp",
+    "stream"
+  ],
+  "author": "Hiram Software",
+  "license": "MITNFA",
+  "bugs": {
+    "url": "https://github.com/hiramsoft/stream-jspm/issues"
+  },
+  "homepage": "https://github.com/hiramsoft/stream-jspm#readme",
+  "dependencies": {
+    "temp": "^0.8.3",
+    "through2": "^2.0.0",
+    "vinyl": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "jspm": "^0.16.14"
+  },
+  "jspm": {
+    "dependencies": {},
+    "devDependencies": {}
+  }
+}
